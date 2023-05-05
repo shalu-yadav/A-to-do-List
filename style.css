@@ -1,0 +1,85 @@
+body{
+    background-color: #201436;
+}
+
+.cont-1{
+    background-color: rgb(146, 146, 216);
+    height: 35rem; width: 35rem;
+    margin: auto;
+    margin-top: 8rem;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    width: 100%;
+}
+
+::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+
+.add-note{
+    width: 33rem;
+    height: 2.5rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.check-box{
+    height: 2.5rem;width: 2.5rem;
+    border: none;
+    margin: 0; padding: 0 ;
+}
+
+.add-note button{
+    height: 2.5rem;width: 2.5rem;
+    background-color: white;
+    color: #201436;
+}
+
+.cont-add-note{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.del-note{
+    border: none;
+    border-radius: 0%;
+    color: #201436;
+    background-color: lavender!important;
+}
+
+.del-note:hover{
+    background-color: #201436!important;
+    color: lavender;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;padding: 0;
+}
+
+.form-control{
+    background-color: lavender;
+}
+
+.check-box{
+    background-color: lavender;
+}
+
+.check-box:checked{
+    background-color: rgb(93,93,188);
+    color: white;
+}
+
+.check-box:focus, .form-control:focus{
+    box-shadow: none!important;
+    outline: none!important;
+    border: none!important;
+}
+
+
+
+
